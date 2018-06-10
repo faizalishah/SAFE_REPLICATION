@@ -67,7 +67,7 @@ class SAFE:
 
 
 if __name__ == '__main__':
-    data_path = './evaluation_dataset/app_descriptions_with_manual_feature_extraction.json'
+    data_path = 'app_descriptions_with_manual_feature_extraction.json'
     
     with open(data_path) as json_data:
         data = json.load(json_data)
